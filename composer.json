@@ -1,24 +1,29 @@
 {
-    "name": "jayhealey/webception",
+    "name": "haizadvnet/webception",
     "description": "Web Interface for running Codeception tests.",
     "keywords": ["codeception", "webception", "testing", "php", "web interface"],
-    "homepage" : "https://github.com/jayhealey/Webception",
+    "homepage" : "https://github.com/haizadvnet/Webception",
     "authors": [
         {
             "name": "James Healey",
             "email": "jayhealey@gmail.com",
             "homepage": "http://twitter.com/jayhealey",
             "role": "Developer"
+        },
+        {
+            "name": "Haizad",
+            "email": "haizad@vn.my",
+            "role": "Developer"
         }
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1",
-        "slim/slim": "2.*",
-        "slim/views": "0.1.*",
-        "twig/twig": "~1.13",
-        "codeception/codeception": "2.*",
-        "symfony/yaml": "2.5.x-dev"
+        "php": ">=7.2.5",
+        "slim/slim": "^4.8.1",
+        "slim/views": "^0.1.3",
+        "twig/twig": "^3.3.2",
+        "codeception/codeception": "^4.1.22",
+        "symfony/yaml": "^5.3.6"
     },
     "autoload": {
         "psr-0": {
